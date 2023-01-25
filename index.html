@@ -15,16 +15,31 @@
       src="https://kit.fontawesome.com/c14680c7b5.js"
       crossorigin="anonymous"
     ></script>
+    <!--FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Merriweather:wght@300;400;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
+    <!-- GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG -->
     <section id="header">
       <div class="headlogo">
-        <a href="#"><img src="img/logo/diamond.png" alt="" /></a>
+        <a href="#"><img src="img/logo/diamond .png" alt="" /></a>
         <a href="#" id="clothify">Clothify</a>
       </div>
       <div>
         <ul id="navbar">
+          <i class="fa-solid fa-xmark" id="cross1" onclick="cross()"></i>
           <li class="hover-underline-animation"><a href="#">Home</a></li>
           <li class="hover-underline-animation"><a href="#">Shop</a></li>
           <li class="hover-underline-animation"><a href="#">Blog</a></li>
@@ -34,6 +49,10 @@
             <a href="#"></a> <i><i class="fa-solid fa-cart-shopping"></i></i>
           </li>
         </ul>
+      </div>
+      <div id="ham">
+        <a href="#"></a> <i><i class="fa-solid fa-cart-shopping"></i></i>
+        <i class="fa-solid fa-bars" id="hamb" onclick="sidenav()"></i>
       </div>
     </section>
     <section id="slider">
@@ -262,7 +281,7 @@
         </div>
       </div>
     </section>
-    <section id="product1" class="section-p1">
+    <!-- <section id="product1" class="section-p1">
       <h3 class="new">NEW ARRIVALS</h3>
       <p class="new">Summer Collection New Modern Design</p>
       <div class="slider_prod swiper mySwiper2">
@@ -417,6 +436,173 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <section id="product1" class="section-p1">
+      <h3 class="new">NEW ARRIVALS</h3>
+      <p class="new">Summer Collection New Modern Design</p>
+      <div class="slider_prod">
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f1.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>MELBOURNE TENNIS SLEEVELESS TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f2.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>ADICOLOR CLASSICS TREFOIL TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f3.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>RUN ICONS 3 BAR LOGO TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f4.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>RUN ICONS 3 BAR LOGO TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f5.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>LINEAR TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f6.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>OWN THE RUN TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f7.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>RUN FAST LACE CROP RUNNING TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pro">
+          <div class="pro_details">
+            <img src="img/products/f8.jpg" alt="" />
+            <div class="describe">
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <span>ADIDAS </span>
+              <h6>FUTURE ICONS WINNERS 3 TEE</h6>
+              <h4 class="amount">$69</h4>
+              <i class="fa-regular fa-heart" style="padding-left: 90%"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner2">
+      <div class="container">
+        <div class="cont22">
+          <div class="cont2"></div>
+        </div>
+      </div>
+    </section>
+    <section class="action">
+      <div class="action-container">
+        <div class="action-inner">
+          <div class="action-content">
+            <img src="/E-commerce/img/banner/action 1.png" alt="" />
+            <img src="/E-commerce/img/banner/action2.png" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
     <section id="feature">
       <div class="feature_sec2">
@@ -444,6 +630,60 @@
         <h5>F24/7 Support</h5>
       </div>
     </section>
+    <section id="newletter">
+      <!--SECTION5-->
+      <div class="section5">
+        <section>
+          <h1 class="title inline-photo2 show-on-scroll2">
+            Subscribe to our newsletter
+          </h1>
+          <p class="inline-photo show-on-scroll">
+            Get latest news on New arrivals, Flash sales & much more !
+          </p>
+        </section>
+        <section>
+          <button class="btn2">Subscribe</button>
+        </section>
+      </div>
+    </section>
+    <section id="footer">
+      <footer>
+        <div class="footer">
+          <section>
+            <h3>Clothify</h3>
+            <p class="footer_text">like it ? get it !</p>
+          </section>
+          <section>
+            <h3>LINKS</h3>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+          </section>
+          <section>
+            <h3>OTHER</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Cookie Policy</a>
+          </section>
+          <section>
+            <h3>ANY QUESTIONS?</h3>
+            <a href="emailto:support@websitename.com"
+              ><span><i class="fa fa-envelope"></i></span
+              ><span>aaddii091@gamil.com</span></a
+            >
+            <a href="tel:xxxxxxxxx"
+              ><span><i class="fa fa-phone"></i></span
+              ><span>(+91)-80762-49631</span></a
+            >
+          </section>
+        </div>
+      </footer>
+      <div class="sub-footer">
+        Copyright ©2021 All rights reserved | Clothify
+      </div>
+    </section>
+    <script src="/E-commerce/script.js"></script>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
