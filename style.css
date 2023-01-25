@@ -223,7 +223,7 @@ section a img {
 .feature_sec2 {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
   text-align: center;
-  margin: 33px 100px 31px 100px;
+  margin: 33px 100px 31px 1px;
   padding: 40px 17px 40px 17px;
   border-radius: 10px;
   cursor: pointer;
